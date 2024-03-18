@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&family=Titan+One&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  height: 68px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.col-4 {
+  width: 433.33px;
+}
+
+.col-3 {
+  width: 333.33px;
+}
+
+.col-2 {
+  width: 233.333px;
+}
+
+.navegacion nav {
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegacion nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #001219;
+}
+
+.navegacion nav a:hover {
+  color: #03141b;
+}
+
+.logo {
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Titan One", cursive;
+}
+
+.logo .primera {
+  color: #ef476f;
+}
+.logo .segunda {
+  color: #ee9b00;
+}
+
+#presentacion {
+  margin-top: 40px;
+  height: 100vh;
+}
+
+.seccion-container {
+  display: grid;
+  grid-template-columns: 660.44px 660.44px;
+}
+
+.seccion-container .box-one {
+  color: #5b5b5b;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  padding-right: 40px;
+}
+.seccion-container .box-one h1 {
+  font-size: 58px;
+  font-family: "Roboto", sans-serif;
+  color: #001219;
+}
+
+.box-two {
+  position: relative;
+}
+
+.box-two .oferta {
+  position: absolute;
+  top: 150px;
+  height: 150px;
+  width: 150px;
+  background-color: #ff595e;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  left: -50px;
+}
+
+.box-two img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.lista-de-productos {
+  display: grid;
+  grid-template-columns: 333px 333px 333px 333px;
+  justify-content: center;
+}
+
+.lista-de-productos .card-product {
+  padding: 10px;
+}
+
+.lista-de-productos .card-product img {
+  width: 100%;
+}
+
+.lista-de-productos .card-product .footer {
+  height: 40px;
+  width: 100%;
+  background-color: #001219;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.lista-de-productos .card-product .footer .descripcion {
+  padding-left: 6px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.lista-de-productos .card-product .footer .precio {
+  padding-right: 6px;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  background-color: #001219;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-bottom .logo {
+  display: block;
+  margin: 0px;
+  height: 40px;
+}
+
+.footer-bottom p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-bottom nav {
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-bottom nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #f6f6f6;
+}
+
+.footer-bottom nav a:hover {
+  color: #c7c7c7;
+}
+
+.footer-bottom .contact-container h3 {
+  color: #f6f6f6;
+  font-family: "Titan One", cursive;
+  font-size: 38px;
+}
+
+.footer-bottom .contact-container .contact-body {
+  margin-top: 10px;
+}
